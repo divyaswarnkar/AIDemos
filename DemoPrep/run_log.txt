@@ -1,0 +1,41 @@
+[2026-10-01T06:59:42Z] Loaded provided inline CSV batch from task input.
+[2026-10-01T06:59:42Z] Loaded target schema and prepared validator.
+[2026-10-01T06:59:42Z] Wrote 5 distinct customer names to new_customers_seen.txt.
+[2026-10-01T06:59:42Z] Rejected row 14 (ORD-2010/Camping Tent) as duplicate line item.
+[2026-10-01T06:59:42Z] Fetching FX rate from Frankfurter ECB provider for EUR on 2024-01-06.
+[2026-10-01T06:59:43Z] Fetched FX rate for EUR: requested 2024-01-06, effective 2024-01-05, rate 1.0921.
+[2026-10-01T06:59:43Z] Flagged line total mismatch for row 3 (ORD-2002/Sleeping Bag): recomputed 218.42 USD vs source 207.50 USD.
+[2026-10-01T06:59:43Z] Reused cached FX rate for EUR on requested date 2024-01-06.
+[2026-10-01T06:59:43Z] Rejected row 5 (ORD-2003) due to missing quantity.
+[2026-10-01T06:59:43Z] Fetching FX rate from Frankfurter ECB provider for JPY on 2024-01-07.
+[2026-10-01T06:59:43Z] Fetched FX rate for JPY: requested 2024-01-07, effective 2024-01-05, rate 0.00689.
+[2026-10-01T06:59:43Z] Fetching FX rate from Frankfurter ECB provider for EUR on 2024-01-08.
+[2026-10-01T06:59:43Z] Fetched FX rate for EUR: requested 2024-01-08, effective 2024-01-08, rate 1.0946.
+[2026-10-01T06:59:43Z] Fetching FX rate from Frankfurter ECB provider for JPY on 2024-01-09.
+[2026-10-01T06:59:44Z] Fetched FX rate for JPY: requested 2024-01-09, effective 2024-01-09, rate 0.00694.
+[2026-10-01T06:59:44Z] Assumed USD currency for row 10 (ORD-2008) because source currency was blank.
+[2026-10-01T06:59:44Z] Fetching FX rate from Frankfurter ECB provider for EUR on 2024-01-11.
+[2026-10-01T06:59:44Z] Fetched FX rate for EUR: requested 2024-01-11, effective 2024-01-11, rate 1.0987.
+[2026-10-01T06:59:44Z] Fetching FX rate from Frankfurter ECB provider for JPY on 2024-01-12.
+[2026-10-01T06:59:44Z] Fetched FX rate for JPY: requested 2024-01-12, effective 2024-01-12, rate 0.00687.
+[2026-10-01T06:59:44Z] Rejected row 16 (ORD-2012) due to negative quantity.
+[2026-10-01T06:59:44Z] Built reconciled order ORD-2001 with 1 valid line item(s) and total 250.00 USD.
+[2026-10-01T06:59:44Z] Built reconciled order ORD-2002 with 2 valid line item(s) and total 253.15 USD.
+[2026-10-01T06:59:44Z] Built reconciled order ORD-2004 with 1 valid line item(s) and total 186.03 USD.
+[2026-10-01T06:59:44Z] Built reconciled order ORD-2005 with 1 valid line item(s) and total 124.78 USD.
+[2026-10-01T06:59:44Z] Built reconciled order ORD-2006 with 1 valid line item(s) and total 190.00 USD.
+[2026-10-01T06:59:44Z] Built reconciled order ORD-2007 with 1 valid line item(s) and total 27.76 USD.
+[2026-10-01T06:59:44Z] Built reconciled order ORD-2008 with 1 valid line item(s) and total 300.00 USD.
+[2026-10-01T06:59:44Z] Flagged discount mismatch for ORD-2009: recomputed 15% vs source 10%.
+[2026-10-01T06:59:44Z] Order ORD-2009 received stacked VIP and bulk discount totaling 15%.
+[2026-10-01T06:59:44Z] Built reconciled order ORD-2009 with 2 valid line item(s) and total 711.88 USD.
+[2026-10-01T06:59:44Z] Built reconciled order ORD-2010 with 1 valid line item(s) and total 91.86 USD.
+[2026-10-01T06:59:44Z] Built reconciled order ORD-2011 with 1 valid line item(s) and total 139.12 USD.
+[2026-10-01T06:59:44Z] Built reconciled order ORD-2013 with 2 valid line item(s) and total 584.25 USD.
+[2026-10-01T06:59:44Z] Built reconciled order ORD-2014 with 1 valid line item(s) and total 150.00 USD.
+[2026-10-01T06:59:44Z] Validated 12 reconciled orders against target schema with zero errors.
+[2026-10-01T06:59:44Z] Wrote reconciled_orders.json with 12 onboarded orders.
+[2026-10-01T06:59:44Z] Wrote rejects.csv with 3 rejected source row(s).
+[2026-10-01T06:59:44Z] Wrote fx_rates_used.csv with 6 distinct FX lookup row(s).
+[2026-10-01T06:59:44Z] Wrote Teams-safe reconciliation_summary.md.
+[2026-10-01T06:59:44Z] Wrote reconciliation_summary.html for Microsoft Teams consumption.
