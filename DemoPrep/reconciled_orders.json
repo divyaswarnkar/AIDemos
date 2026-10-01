@@ -1,0 +1,263 @@
+[
+  {
+    "order_id": "ORD-2001",
+    "customer_name": "Acme Corp",
+    "order_date": "2024-01-05",
+    "region": "US",
+    "status": "Complete",
+    "discount_applied": false,
+    "discount_pct_applied": 0.0,
+    "source_discount_pct_mismatch": false,
+    "items": [
+      {
+        "item_sku": "Camping Tent",
+        "quantity": 10,
+        "unit_price_usd": 25.0,
+        "line_total_usd": 250.0,
+        "source_line_total_mismatch": false
+      }
+    ],
+    "order_total_usd": 250.0
+  },
+  {
+    "order_id": "ORD-2002",
+    "customer_name": "Globex Inc",
+    "order_date": "2024-01-06",
+    "region": "EMEA",
+    "status": "Complete",
+    "discount_applied": true,
+    "discount_pct_applied": 5.0,
+    "source_discount_pct_mismatch": false,
+    "items": [
+      {
+        "item_sku": "Sleeping Bag",
+        "quantity": 5,
+        "unit_price_usd": 43.684,
+        "line_total_usd": 218.42,
+        "source_line_total_mismatch": true
+      },
+      {
+        "item_sku": "Camping Tent",
+        "quantity": 2,
+        "unit_price_usd": 24.0262,
+        "line_total_usd": 48.05,
+        "source_line_total_mismatch": false
+      }
+    ],
+    "order_total_usd": 253.15
+  },
+  {
+    "order_id": "ORD-2004",
+    "customer_name": "Initech",
+    "order_date": "2024-01-07",
+    "region": "APAC",
+    "status": "Complete",
+    "discount_applied": true,
+    "discount_pct_applied": 10.0,
+    "source_discount_pct_mismatch": false,
+    "items": [
+      {
+        "item_sku": "Hiking Backpack",
+        "quantity": 20,
+        "unit_price_usd": 10.335,
+        "line_total_usd": 206.7,
+        "source_line_total_mismatch": false
+      }
+    ],
+    "order_total_usd": 186.03
+  },
+  {
+    "order_id": "ORD-2005",
+    "customer_name": "Globex Inc",
+    "order_date": "2024-01-08",
+    "region": "EMEA",
+    "status": "Cancelled",
+    "discount_applied": true,
+    "discount_pct_applied": 5.0,
+    "source_discount_pct_mismatch": false,
+    "items": [
+      {
+        "item_sku": "Sleeping Bag",
+        "quantity": 3,
+        "unit_price_usd": 43.784,
+        "line_total_usd": 131.35,
+        "source_line_total_mismatch": false
+      }
+    ],
+    "order_total_usd": 124.78
+  },
+  {
+    "order_id": "ORD-2006",
+    "customer_name": "Umbrella LLC",
+    "order_date": "2024-01-09",
+    "region": "US",
+    "status": "Complete",
+    "discount_applied": true,
+    "discount_pct_applied": 5.0,
+    "source_discount_pct_mismatch": false,
+    "items": [
+      {
+        "item_sku": "Camping Tent",
+        "quantity": 8,
+        "unit_price_usd": 25.0,
+        "line_total_usd": 200.0,
+        "source_line_total_mismatch": false
+      }
+    ],
+    "order_total_usd": 190.0
+  },
+  {
+    "order_id": "ORD-2007",
+    "customer_name": "Initech",
+    "order_date": "2024-01-09",
+    "region": "APAC",
+    "status": "Complete",
+    "discount_applied": false,
+    "discount_pct_applied": 0.0,
+    "source_discount_pct_mismatch": false,
+    "items": [
+      {
+        "item_sku": "Trekking Poles",
+        "quantity": 5,
+        "unit_price_usd": 5.552,
+        "line_total_usd": 27.76,
+        "source_line_total_mismatch": false
+      }
+    ],
+    "order_total_usd": 27.76
+  },
+  {
+    "order_id": "ORD-2008",
+    "customer_name": "Acme Corp",
+    "order_date": "2024-01-10",
+    "region": "US",
+    "status": "Complete",
+    "discount_applied": false,
+    "discount_pct_applied": 0.0,
+    "source_discount_pct_mismatch": false,
+    "items": [
+      {
+        "item_sku": "Camping Tent",
+        "quantity": 12,
+        "unit_price_usd": 25.0,
+        "line_total_usd": 300.0,
+        "source_line_total_mismatch": false
+      }
+    ],
+    "order_total_usd": 300.0
+  },
+  {
+    "order_id": "ORD-2009",
+    "customer_name": "Umbrella LLC",
+    "order_date": "2024-01-11",
+    "region": "US",
+    "status": "Complete",
+    "discount_applied": true,
+    "discount_pct_applied": 15.0,
+    "source_discount_pct_mismatch": true,
+    "items": [
+      {
+        "item_sku": "Sleeping Bag",
+        "quantity": 7,
+        "unit_price_usd": 42.5,
+        "line_total_usd": 297.5,
+        "source_line_total_mismatch": false
+      },
+      {
+        "item_sku": "Hiking Backpack",
+        "quantity": 9,
+        "unit_price_usd": 60.0,
+        "line_total_usd": 540.0,
+        "source_line_total_mismatch": false
+      }
+    ],
+    "order_total_usd": 711.88
+  },
+  {
+    "order_id": "ORD-2010",
+    "customer_name": "Globex Inc",
+    "order_date": "2024-01-11",
+    "region": "EMEA",
+    "status": "Complete",
+    "discount_applied": true,
+    "discount_pct_applied": 5.0,
+    "source_discount_pct_mismatch": false,
+    "items": [
+      {
+        "item_sku": "Camping Tent",
+        "quantity": 4,
+        "unit_price_usd": 24.1714,
+        "line_total_usd": 96.69,
+        "source_line_total_mismatch": false
+      }
+    ],
+    "order_total_usd": 91.86
+  },
+  {
+    "order_id": "ORD-2011",
+    "customer_name": "Initech",
+    "order_date": "2024-01-12",
+    "region": "APAC",
+    "status": "Refunded",
+    "discount_applied": true,
+    "discount_pct_applied": 10.0,
+    "source_discount_pct_mismatch": false,
+    "items": [
+      {
+        "item_sku": "Hiking Backpack",
+        "quantity": 15,
+        "unit_price_usd": 10.305,
+        "line_total_usd": 154.58,
+        "source_line_total_mismatch": false
+      }
+    ],
+    "order_total_usd": 139.12
+  },
+  {
+    "order_id": "ORD-2013",
+    "customer_name": "Umbrella LLC",
+    "order_date": "2024-01-14",
+    "region": "US",
+    "status": "Complete",
+    "discount_applied": true,
+    "discount_pct_applied": 5.0,
+    "source_discount_pct_mismatch": false,
+    "items": [
+      {
+        "item_sku": "Hiking Backpack",
+        "quantity": 9,
+        "unit_price_usd": 60.0,
+        "line_total_usd": 540.0,
+        "source_line_total_mismatch": false
+      },
+      {
+        "item_sku": "Camping Tent",
+        "quantity": 3,
+        "unit_price_usd": 25.0,
+        "line_total_usd": 75.0,
+        "source_line_total_mismatch": false
+      }
+    ],
+    "order_total_usd": 584.25
+  },
+  {
+    "order_id": "ORD-2014",
+    "customer_name": "Beta Testers",
+    "order_date": "2024-01-15",
+    "region": "US",
+    "status": "Complete",
+    "discount_applied": false,
+    "discount_pct_applied": 0.0,
+    "source_discount_pct_mismatch": false,
+    "items": [
+      {
+        "item_sku": "Camping Tent",
+        "quantity": 6,
+        "unit_price_usd": 25.0,
+        "line_total_usd": 150.0,
+        "source_line_total_mismatch": false
+      }
+    ],
+    "order_total_usd": 150.0
+  }
+]
