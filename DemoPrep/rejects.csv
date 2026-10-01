@@ -1,0 +1,4 @@
+OrderID,Cust Name,Customer Tier,order_date,Region,Item,Qty,Unit Price,Currency,Line Total,Discount %,Status,Notes,rejection_reason
+ORD-2010,Globex Inc,VIP,11-Jan-2024,EMEA,Camping Tent,4,EUR 22.00,EUR,EUR 88.00,5,Complete,Possible duplicate entry - check with warehouse,duplicate line item
+ORD-2003,Acme Corp,Standard,01/07/2024,US,Camping Tent,,$25.00,USD,,0,Pending,Customer called to confirm order - qty to follow,missing quantity
+ORD-2012,Acme Corp,Standard,13/01/2024,US,Sleeping Bag,-3,$42.50,USD,-$127.50,0,Complete,Customer requested return of 3 units,negative quantity requires manual review
