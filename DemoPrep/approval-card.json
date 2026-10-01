@@ -1,0 +1,131 @@
+{
+  "type": "AdaptiveCard",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.4",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Daily price check \u2014 01 Oct",
+      "weight": "Bolder",
+      "size": "Medium",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "11 to reprice \u00b7 1 holding \u00b7 1 needs your call",
+      "isSubtle": true,
+      "spacing": "None",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Recommend repricing",
+      "weight": "Bolder",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Nightfall 20-Degree Sleeping Bag  $149.00 -> $159.00 \u2014 Basecamp Supply Co. lowest at $159.00 (50.3% -> 53.5%)",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Summit Pro 60 Pack  $279.00 -> $264.95 \u2014 Timberline Trading Post lowest at $265.00 (34.8% -> 31.3%)",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Vega 500 Headlamp  $64.95 -> $59.95 \u2014 Timberline Trading Post lowest at $57.95 (36.9% -> 31.6%)",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "MicroBurn Stove  $89.95 -> $84.95 \u2014 Basecamp Supply Co. lowest at $84.95 (35.5% -> 31.7%)",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Kinetic 3L Hydration Reservoir  $39.95 -> $34.95 \u2014 Northfork Outfitters lowest at $34.95 (39.9% -> 31.3%)",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Riverbend 20L Dry Bag  $29.00 -> $27.00 \u2014 Northfork Outfitters lowest at $27.00 (58.6% -> 55.6%)",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Lumen 400 Headlamp  $39.00 -> $34.00 \u2014 Timberline Trading Post lowest at $33.00 (59.0% -> 52.9%)",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Summit 45L Backpack  $129.00 -> $119.00 \u2014 Basecamp Supply Co. lowest at $119.00 (51.9% -> 47.9%)",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Switchback Trekking Poles  $69.00 -> $72.00 \u2014 Northfork Outfitters lowest at $72.00 (55.1% -> 56.9%)",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Emberlite Camp Stove  $59.00 -> $50.00 \u2014 Timberline Trading Post lowest at $47.00 (52.5% -> 44.0%)",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Trailhead 2P Tent  $219.00 -> $198.00 \u2014 Timberline Trading Post lowest at $198.00 (46.1% -> 40.4%)",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Holding",
+      "weight": "Bolder",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Cascade Rain Shell \u2014 Basecamp is lowest eligible at $109.00, but the nearest margin-protecting whole-dollar move is $110.00. Holding at $119.00 this run.",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Needs your call",
+      "weight": "Bolder",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Summit Pro 60 Pack \u2014 Basecamp lists AG-SP60-25 at $219.00, a prior-season near-miss, while Timberline has the current AG-SP60-26 at $265.00. Treat the prior-season listing as non-comparable, or chase the current-model market?",
+      "wrap": true
+    },
+    {
+      "type": "Input.Text",
+      "id": "comments",
+      "label": "Comments",
+      "placeholder": "Add a note for the record (optional)",
+      "isMultiline": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Approve",
+      "style": "positive",
+      "data": {
+        "action": "approve",
+        "run_id": "2026-10-01"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Reject",
+      "style": "destructive",
+      "data": {
+        "action": "reject",
+        "run_id": "2026-10-01"
+      }
+    }
+  ]
+}
