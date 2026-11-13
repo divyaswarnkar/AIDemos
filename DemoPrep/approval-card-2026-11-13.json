@@ -1,0 +1,120 @@
+{
+  "type": "AdaptiveCard",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.4",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Daily price check - 13 Nov",
+      "weight": "Bolder",
+      "size": "Medium",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "11 to reprice - 1 holding - 0 needs your call",
+      "isSubtle": true,
+      "spacing": "None",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Recommend repricing",
+      "weight": "Bolder",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Trailhead 2P Tent - $219.00 -> $208.00; Timberline Trading Post is lowest at $198.00. Margin 46.1% -> 43.3%.",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Nightfall 20-Degree Sleeping Bag - $149.00 -> $167.00; Basecamp Supply Co. is lowest at $159.00. Margin 50.3% -> 55.7%.",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Emberlite Camp Stove - $59.00 -> $50.15; Timberline Trading Post is lowest at $47.00. Margin 52.5% -> 44.2%.",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Summit 45L Backpack - $129.00 -> $125.00; Basecamp Supply Co. is lowest at $119.00. Margin 51.9% -> 50.4%.",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Cascade Rain Shell - $119.00 -> $114.00; Basecamp Supply Co. is lowest at $109.00. Margin 53.8% -> 51.8%.",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Riverbend 20L Dry Bag - $29.00 -> $33.35; Basecamp Supply Co. is lowest at $32.00. Margin 58.6% -> 64.0%.",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Lumen 400 Headlamp - $39.00 -> $35.00; Timberline Trading Post is lowest at $33.00. Margin 59.0% -> 54.3%.",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Switchback Trekking Poles - $69.00 -> $79.00; Basecamp Supply Co. is lowest at $75.00. Margin 55.1% -> 60.8%.",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Vega 500 Headlamp - $64.95 -> $57.95; Timberline Trading Post is lowest at $57.95. Margin 36.9% -> 29.2%.",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "MicroBurn Stove - $89.95 -> $84.95; Basecamp Supply Co. is lowest at $84.95. Margin 35.5% -> 31.7%.",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Summit Pro 60 Pack - $279.00 -> $264.95; Timberline Trading Post is lowest at $265.00. Margin 34.8% -> 31.3%.",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Holding",
+      "weight": "Bolder",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Kinetic 3L Hydration Reservoir - No eligible exact-match listing today, so hold at $39.95.",
+      "wrap": true
+    },
+    {
+      "type": "Input.Text",
+      "id": "comments",
+      "label": "Comments",
+      "placeholder": "Add a note for the record (optional)",
+      "isMultiline": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Approve",
+      "style": "positive",
+      "data": {
+        "action": "approve",
+        "run_id": "2026-11-13"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Reject",
+      "style": "destructive",
+      "data": {
+        "action": "reject",
+        "run_id": "2026-11-13"
+      }
+    }
+  ]
+}
